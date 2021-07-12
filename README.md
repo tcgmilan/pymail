@@ -2,8 +2,8 @@
 ## A Gmail client written in python!
 
 # Requirements
-> Python 3.9.x	
-> TKinter	
+> Python 3.9.x		
+> TKinter			
 
 # Tutorial
 1. Clone or Download the files
