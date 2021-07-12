@@ -10,7 +10,7 @@
 2. Run `python pymail`
 3. Enter your `email adress` and `password`
 4. Click on the `Login` button
-5. Enter your `name` the `target's email adress` the `subject` and the `email content`!
+5. Enter your `name` the `target's email adress` the `subject` and the `email content`
 6. Click on the `Send` button
 
 # Troubleshooter
