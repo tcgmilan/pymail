@@ -2,7 +2,7 @@
 ## A Gmail client written in python!
 
 # Requirements
-> Python 3.9.x		
+> Python 3.9.x		      
 > TKinter			
 
 # Tutorial
