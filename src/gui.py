@@ -1,5 +1,6 @@
 from src import email_sender
 import tkinter as tk
+import webbrowser
 
 class Panels:
     def __init__(self):
@@ -19,8 +20,13 @@ class Panels:
         password_entry = tk.Entry(self.root, textvariable = password).grid(row = 1, column = 1)
         
         login_button = tk.Button(self.root, text = "Login", command = lambda: self.login_to_client(self.root, username.get(), password.get())).grid(row = 4, column = 0)
+        smtp_button = tk.Button(self.root, text = "Enable SMTP Access", command = lambda: self.show_smtp_enable()).grid(row = 4, column = 1)
+
+
 
         self.root.mainloop()
+    def show_smtp_enable(self):
+        webbrowser.open_new("https://myaccount.google.com/lesssecureapps")
 
     def show_email_panel(self):
         self.root = tk.Tk()
